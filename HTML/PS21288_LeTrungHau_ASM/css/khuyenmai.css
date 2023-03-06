@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+#Content h3 {
+    text-align: center;
+    width: 80%;
+}
+
+#Content h2 {
+    text-align: center;
+}
+
+#Content {
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    gap: 20px;
+    margin-top: 5px;
+    height: 6900px;
+    width: 80%;
+    float:left;
+}
+.gear{
+    display: grid;
+    grid-template-columns: 200px  200px 200px 200px 200px;
+    gap: 15px;
+    float: left;
+}
+@media only screen and (max-width:100%){
+    #Footer{
+        width: 80%;
+        padding: 0;
+    }
+    #Content{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:414px){
+    #Menu{
+        width: 100%;
+    }
+
+}

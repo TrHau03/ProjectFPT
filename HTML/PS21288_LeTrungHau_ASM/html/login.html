@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="content" class="content">
+        <div id="top">
+            <a href="../index.html"><img src="../image/iconback.png" id="back" alt=""></a>
+            <h3>Đăng nhập với</h3>
+        </div>
+        <div class="login">
+            <div class="log" id="log1">
+               <a href="https://www.facebook.com:"><img src="../image/facebook-f-logo-white-background-21.jpg" alt=""></a> 
+                <span class="span">Facebook</span>
+            </div>
+            <div class="log" id="log2">
+            <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">   <img src="../image/logogg.png" alt=""></a> 
+                <span class="span">Google</span>
+            </div>
+        </div>
+        <div id="form">
+            <div class="name">
+                <label for="" class="txt" >Tên đăng nhập</label>
+                <br> <input type="text" id="tendangnhap" class="input">
+                <span style="font-size: 10px ; color: red;" id="tbtk"></span>
+            </div>
+            <div class="name" id="pass">
+                <label for="" class="txt">Mật khẩu</label>
+                <br> <input type="password" id="matkhau" class="input">
+                <span style="font-size: 10px ; color: red" id="tbmk"></span> <br>
+                <a href="">Quên mật khẩu?</a>
+            </div>
+            <div id="signin">
+                <button onclick="check()" >Đăng nhập</button><br>
+                <div id="signup">
+                    <h5>Bạn không phải là thành viên? <a href="./signup.html">Đăng ký</a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var thongbao = ""
+function check(){
+    var ten = document.getElementById("tendangnhap")
+    var matkhau = document.getElementById("matkhau")
+    if(ten.value.length == 0){
+        thongbao = "Chưa nhập tên đăng nhập !"
+        document.getElementById("tbtk").innerHTML = thongbao;
+    }else if(ten.value.length != 0){
+        document.getElementById("tbtk").innerHTML = ""
+    }
+
+    if(matkhau.value.length == 0){
+        thongbao = "Chưa nhập mật khẩu !"
+        document.getElementById("tbmk").innerHTML = thongbao;
+    }else if(matkhau.value.length != 0){
+        document.getElementById("tbmk").innerHTML = ""
+    }
+
+    if(ten.value == "admin" && matkhau.value == "123"){
+        location.replace("../index.html")
+    }
+}
+</script>
+</html>

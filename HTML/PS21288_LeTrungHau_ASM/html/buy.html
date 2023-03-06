@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Gear</title>
+    <link rel="icon" href="../image/logo.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/baomat.css">
+    <link rel="stylesheet" href="../css/buy.css">
+</head>
+
+<body>
+    <div id="Menu">
+        <a href="./index.html">
+            <img src="../image/ozone.png" alt="" id="img1">
+        </a>
+        <a href="../index.html" class="info">Trang chủ </a>
+        &ensp;
+        &ensp;
+        <a href="./Khuyenmai.html" class="info">Sản Phẩm</a>
+        &ensp;
+        &ensp;
+        <a href="./Baohanh.html" class="info" id="danhgia">Đánh giá</a>
+        &ensp;
+        &ensp;
+        <a href="./login.html" class="info">Đăng nhập</a>
+        <img src="../image/phone_PNG463.png" alt="Phone" id="img2">
+        <p id="in4">
+            <strong>
+                Đặt hàng nhanh: <br>
+                0999999999 &ensp;&ensp;&ensp;&ensp;<br>
+            </strong>
+        </p>
+    </div>
+    <div id="Banner">
+        <figure>
+            <img src="../image/banner_7.png" alt="">
+            <img src="../image/banner_cong_thanh_toan_vnpayqr_grande.webp" alt="">
+            <img src="../image/phuong_thuc_thanh_toan_banner-02_664888fe-518b-4239-b859-c6312a5dc497.webp" alt="">
+            <img src="../image/1050-1632465985-cover.png" alt="">
+        </figure>
+    </div>
+    <div id="cennter">
+        <div id="cl">
+            <div id="cl1">
+                <li>Sản phẩm</li>
+                <hr>
+                <div id="sp">
+                    <img src="../image/Razer BlackWidow V3.png" alt="">
+                    <li class="li">Bàn phím Razer Blackwidow V3 TKL Yellow Switch</li>
+                </div>
+            </div>
+            <div id="cl2">
+                <li>Giá</li>
+                <hr>
+                <li class="li">2.790.000VNĐ</li>
+            </div>
+            <div id="cl3">
+                <li>Số lượng</li>
+                <hr>
+                <input type="number" name="" id="sl" value="1" class="in" min="1" onclick="gia()">
+            </div>
+            <div id="cl4">
+                <li>Tổng cộng</li>
+                <hr>
+                <li class="li" id="price">2.790.000VNĐ</li>
+            </div>
+        </div>
+        <div id="button">
+            <hr>
+            <li>Tổng tiền tạm tính: &ensp; <strong id="sum">2.790.000VNĐ</strong> </li>
+            <hr>
+            <input type="text" name="" id="gg" placeholder="Mã Giảm Giá">
+            <a href="../index.html"><input id="thanhtoan" type="button" value="Thanh toán"></a>
+            <hr>
+        </div>
+    <div id="email">
+        <img src="../image/iconcursor.png" alt="" id="cursor">
+        <label>  Keyboard gear - Thế Giới Mua Bán Đồ Chơi Công Nghệ, Phụ Kiện Chơi Game</label>
+        
+        <div id="input">
+            <input type="text" placeholder="Email" id="inputemail">
+           <a href=""> <input type="button" value="Đăng kí" id="signup"></a>
+        </div>
+    </div>
+    </div>
+    <div id="Footer">
+        <footer>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1p5IRUi6h976HBPqYS-o_8lrromOsuIQ&ehbc=2E312F"
+                width="640" height="480"></iframe>
+            <div class="column-left">
+                <h3>Thông tin cần biết:</h3>
+                <li><a href="./html/Baohanh.html">Chính sách bảo hành</a></li>
+                <li><a href="./html/Giaohang.html">Chính sách giao hàng</a></li>
+                <li><a href="https://www.facebook.com/groups/367908491688438">Cộng đồng</a></li>
+                <li><a href="https://www.facebook.com"><img src="../image/fb.png" alt="" class="i4"></a></li>
+                <li><a href="https://www.instagram.com"><img src="../image/Instagram_logo_2022.svg.png" alt=""
+                            class="i4"></a></li>
+            </div>
+            <div class="column-center">
+                <h3>Hệ Thống cửa hàng:</h3>
+                <li> <strong>Chi nhánh 1:</strong> 14C3 Đại Lộ Đồng Khởi, P. Phú Khương, Bến Tre, Vietnam</li>
+                <li> <strong>Chi nhánh 2:</strong> 207 Ấp Bắc, Phường 10, Thành phố Mỹ Tho, Tiền Giang, Vietnam</li>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function gia() {
+            var sl, price;
+            sl = document.getElementById("sl").value;
+            price = 2790000 * sl;
+            var nf = new Intl.NumberFormat();
+            tien = nf.format(price);
+            document.getElementById("price").innerHTML = tien + "VNĐ";
+            document.getElementById("sum").innerHTML = document.getElementById("price").innerHTML;
+        }
+
+    </script>
+</body>
+
+</html>

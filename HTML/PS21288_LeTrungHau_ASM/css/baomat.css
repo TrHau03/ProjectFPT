@@ -1,0 +1,178 @@
+
+#Center>#Control {
+    float: left;
+    width: 32%;
+    height: 500px;
+    background-color: rgb(203, 206, 206);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+h2 {padding-left: 10px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 116, 111);
+    border-radius: 10px;
+}
+
+#Control>h3 {
+    position: relative;
+    left: 5px;
+}
+
+#infor {
+    width: 64%;
+    height: 1000px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Footerr {
+    float: left;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 200px;
+    background-color: rgb(230, 230, 230);
+    border-top: 3px solid rgb(110, 110, 110);
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer img {
+    position: relative;
+    top: -5px;
+    left: 40px;
+    width: 530px;
+    height: auto;
+    border-radius: 200px;
+}
+
+#Footerr a:hover {
+    color: blue;
+}
+body {
+    background-image: url(../image/BG.jpg); /*background cho trang web*/
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0; /*chiều dài rộng cho toàn trang web*/
+}
+
+figure>img{
+    float: left;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border-radius: 30px;
+}
+        div#Banner figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+    } /*Slide show cho banner*/
+
+#Menu {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+} /*CHiều dài rộng, bo góc cho thanh menu*/
+
+#Menu #img1 {
+    position: relative;
+    top: 10px;
+    left: -150px;
+    height: 100px;
+    width: 200px;
+    border-radius: 50px; /*đinh dạng hình ảnh*/
+}
+
+.info {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+    top: -40px;
+    left: -50px;
+    transition: color .9s ease-in-out, box-shadow .5s ease-in-out;
+}/* định dạng chữ cho thanh menu, hiệu ứng*/
+
+.info:hover {
+    box-shadow: inset 200px 0 0 0 #000000;
+    color: white;
+    border-radius: 5px;
+} /*hover cho các thẻ trên menu*/
+
+#Menu #img2 {
+    position: relative;
+    top: -20px;
+    left: 50px;
+    width: 50px;
+    height: auto;
+}
+
+#Menu #in4 {
+    position: relative;
+    top: -85px;
+    right: 120px;
+    text-align: right;
+    font-size: 16px;
+}
+#Footer {
+    float: left;
+    height: 300px;
+    width: 100%;
+
+    background-color: rgb(230, 230, 230);
+    border-top: 3px solid rgb(110, 110, 110);
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}/*đinh dạng footer của web*/
+#Footer a:hover {
+    color: rgb(158, 158, 158);
+}/*hiệu ứng thay đổi màu chữ của thẻ a*/
+.column-left 
+{
+    position: relative;
+    left: 20px;
+    width: 25%;
+    float: left;
+    font-size: 20px;
+    line-height: 25px;
+}/*định dạng cột đầu tiên của footer*/
+.column-center {
+    float: left;
+    width: 30%;
+    font-size: 20px;
+}/*định dạng cột giữa của footer*/
+.column-left a {
+    text-decoration: none;
+    color: #121415;
+}/*định dạng thẻ a ở cột trái*/
+
+li {
+    list-style: none;
+}
+.i4{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}/*định dạng hình ảnh của cột trái*/
+del {
+    font-size: 10px;
+    color: red;
+
+}

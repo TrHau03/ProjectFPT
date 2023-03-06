@@ -1,0 +1,146 @@
+#cennter{
+    height: 460px;
+}
+#cl{
+    display: grid;
+    grid-template-columns: 600px 300px 200px auto;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+#cl1{
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    float: left;
+    height: 120px;
+    background-color: rgb(236, 229, 229);
+    border-right: 1px solid black;
+}
+#cl2{
+    text-align: center;
+    float: left;
+    height: 120px;
+    background-color: rgb(236, 229, 229);
+    border-right: 1px solid black;
+}
+#cl3{
+    text-align: center;
+    float: left;
+    height: 120px;
+    background-color: rgb(236, 229, 229);
+    border-right: 1px solid black;
+}
+#cl3>input{
+    border-radius: 5px;
+}
+#cl4{
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    float: left;
+    height: 120px;
+    background-color: rgb(236, 229, 229);
+}
+#sp>img{
+    float: left;
+    width: 15%;
+}
+.li{
+    position: relative;
+        top: 20px;
+    font-size: 18px;
+}
+.in{
+    position: relative;
+        top: 20px;
+}
+hr{
+    width: 100%;
+    border: 1px solid rgb(163, 163, 163);
+}
+#price{
+    position: relative;
+        top: 1px;
+}
+#cl3>input{
+    width: 20%;
+}
+#button{
+    margin: auto;
+    clear: both;
+    width: 95%;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    position: relative;
+        bottom: -50px;
+}
+
+#button>a>#thanhtoan{
+    background-color:rgb(73, 73, 73);
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-weight: 800 ;
+    color: white;
+    
+}
+#button>a>#thanhtoan:hover{
+    background-color: rgb(105, 105, 103);
+    
+}
+#gg{
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}
+#email{
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(227, 227, 227);
+    margin-top: 150px;
+
+}
+#email>label{
+    font-size: 22px;
+    padding-left: 70px;
+    padding-top: 80px;
+    position: relative;
+        top: 20px;
+}
+#input{
+    width: 30%;
+    height: 50px ;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+#input>#inputemail{
+    height: 30px;
+    width: 50%;
+    margin-top: 9px;
+    margin-left: 40px;
+    border: 0px;
+}
+#input>input:focus{
+    outline: none;
+}
+#cursor{
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: relative;
+        left: 65px;
+        top: 10px;
+}
+#input>a>#signup{
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding: 0px;
+    height: 100%;
+    width: 90px;
+    float: right;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 15px;
+}

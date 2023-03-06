@@ -1,0 +1,192 @@
+body{
+    width: 99%;
+    height: auto;
+    background: url(../image/BG.jpg);
+}/*chiều dài và background cho trang web*/
+#back{
+    width: 10%;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 1s;
+} 
+#back:hover{
+    transform: scale(1.05);
+}/*chỉnh chiều dài,vị trí và hiệu ứng cho nút Back*/
+#content{
+    margin: auto;
+    width: 40%;
+    height: auto;
+    background-color: aliceblue;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}/*chỉnh chiều dài, bo góc cho box đăng nhập*/
+#top{
+    width: 100%;
+    height: 70px;
+    background-color: #3b5998;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#content>#top>h3{
+    font-family: Poppins-Regular, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    position: relative;
+        top: -40px;
+    width: 100%;
+}
+.login{
+    width: 80%;
+    height: 60px;
+    margin-left: 30%;
+    display: flex;
+    float: left;
+}
+@media only screen and (max-width:1180px){
+    .login{
+        width: 300px;
+    }
+    .span{
+        display: none;
+    }
+    #signin{
+        width: 45%;
+        margin-left: -30%;
+    }
+    .log{
+        margin-left: -30px;
+    }
+}/*web xem trên table*/
+    
+@media only screen and(max-width:390px){
+    body{
+        margin: auto;
+        width: 100%;
+    }
+   
+}
+.log{
+    box-shadow: 0 1px 5px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.log> a > img{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#log1{
+    background-color: #3b5998;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;  
+    color: white;
+}
+#log1:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    background: url(../image/BG.jpg);
+    color: black;
+}
+span{
+    position: relative;
+        bottom: 8px;
+        left: 10px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+#log2{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+#log2:hover{
+    transition: 1s;
+    background: url(../image/BG.jpg);
+    transform: scale(1.05);
+    color: white;
+}
+#form>.txt{
+    font-family: Montserrat-SemiBold;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.5;
+}
+#form{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+.name{
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+.name>input{
+        margin-top: 5px;
+        font-family: Poppins-Regular;
+        color: #333333;
+        line-height: 1.2;
+        font-size: 18px;
+        display: block;
+        width: 90%;
+        background: transparent;
+        height: 40px;
+        padding: 0 20px;
+        background-color: #ffffff;
+        border: 0px;
+        border-bottom: 1px solid rgb(184, 184, 184);
+        border-radius: 5px;
+        transition: 1s;
+}
+.name>input:focus{
+    background-color: #e4e4e4;
+    outline-style:inherit;
+    transform: scale(1.08);
+}
+#pass{
+    margin-top: 20px;
+}
+#pass>a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #8d8c8c;
+}
+#pass>a:hover{
+    color: #494848;
+}
+#signin{
+    padding: 15px 200px;
+}
+#signin>button{
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: solid 2px rgb(158, 158, 158);
+    width: 100%;
+    line-height: 1.3;
+    font-weight:bold;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #333333;
+    color: white;
+}
+#signin>button:hover{
+    background-color: #e9e8e8;
+    color: #555555;
+    transition: 1s;
+}
+#signup{
+    margin-top: -15px;
+    margin-left: 10px;
+    text-align: center;
+}
+#ma{
+    margin-top: 15px;
+    margin-left: 85px;
+}

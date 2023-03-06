@@ -1,0 +1,135 @@
+.cl1>img{
+    float: left;
+    width: 50%;
+}
+.cl2{
+    float: right;
+    width: 24%;
+    text-align: center;
+    border: 2px solid rgb(88, 87, 87);
+    border-radius: 5px;
+    position: relative;
+        top: 75px;
+}
+.cl2>h1{
+    color: rgb(204, 98, 98);
+}
+.cl3>li{
+    margin: 8px;
+    
+}
+.cl3{
+    float: right;
+    font-size: larger;
+    width: 24%;
+    position: relative;
+    top: 60px;
+}
+.cl2>div>input{
+    border-radius: 5px;
+    outline: none;
+    width: 70px;
+    margin-bottom: 5px;
+}
+.cl2>div>a>input{
+    border-radius: 5px;
+    outline: none;
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+#mua{
+    width: 100px;
+    height: 32px;
+    transition: 0.5s;
+    background-color: rgb(197, 202, 206);
+    margin-left: 5px;
+    padding: 3px;
+    border: 0px;
+}
+#mua:hover{
+    border: ;
+    transform: scale(1.2);
+    background-color: rgb(161, 161, 161);
+}
+.nocl{
+    margin: auto;
+    width: 75%;
+    clear: both;
+    font-size: larger;
+}
+.nocl>h1{
+    text-align: center;
+}
+.nocl>img{
+    width: 75%;
+    position: relative;
+    left: 140px;
+}
+#video{
+    width: 75%;
+    height: 500px;
+    position: relative;
+    left: 140px;
+
+}
+.fill-button {
+    position: relative;
+    overflow:hidden;
+    display:inline-block;
+    width:100px;
+    height:32px;
+    border:1px solid #35495e;
+    text-align:center;
+    box-sizing:border-box;
+    color:#35495e;
+    text-decoration:none;
+    cursor: pointer;
+    line-height:28px;
+    font-family: 'arial';
+    border-radius: 4px;
+  }
+  .fill-button > span {
+    display:block;
+  }
+  .fill-button > .fill-button-hover:after, .fill-button > .fill-button-hover:before {
+    position:absolute;
+    top:0;
+    opacity:0;
+    display:block;
+    content:"";
+    width:0;
+    height:30px;
+  }
+  .fill-button > .fill-button-hover:after {
+    background-color:#35495e;
+    transform:skewX(45deg);
+    transform-origin:center center;
+    transition:all .35s, opacity .4s;
+    left:50%;
+  }
+  .fill-button .fill-button-hover:before {
+    background-color:#42b883;
+    transition:opacity 1s;
+  }
+  
+  .fill-button .fill-button-text {
+    z-index:1;
+    position:relative;
+    color:#35495e;
+    transition:color .35s;
+  }
+  .fill-button:hover .fill-button-text {
+    color:#42b883;
+  }
+  .fill-button .fill-button-hover:hover:after {
+    opacity:1;
+    left:2%;
+    width:95%;
+    transform:skewX(45deg);
+  }
+  .fill-button > .fill-button-hover:hover:before {
+    opacity: 1;
+    left: 0;
+    width:100%;
+  }

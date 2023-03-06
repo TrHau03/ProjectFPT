@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="content">
+        <div id="top">
+            <a href="../index.html" id="icon"><img src="../image/iconback.png" id="back" alt=""></a>
+            <h3> Đăng ký thành viên</h3>
+        </div>
+        <div id="form">
+            <div class="name">
+                <label for="" class="txt">Tên đăng nhập</label>
+                <br> <input type="text"  id="ten">
+                <span id="loi"  style="font-size: 10px ; color: red;"></span>
+            </div>
+            <div class="name" id="pass">
+                <label for="" class="txt">Mật khẩu</label>
+                <br> <input type="password">
+            </div>
+            <div class="name" id="pass">
+                <label for="" class="txt">Nhập lại mật khẩu</label>
+                <br> <input type="password">
+            </div>
+            <div class="name" id="pass">
+                <label for="" class="txt">Email</label>
+                <br> <input type="email">
+            </div>
+            <div id="ma">
+                <label for="" class="txt">Mã xác nhận:</label>
+                <input type="text">
+            </div>
+            <div id="signin">
+                <button onclick="checkform()">Đăng Ký</button><br>
+            </div>
+        </div>
+    </div>
+</body>
+    <script>
+        function checkform(){
+            var tenDangNhap = document.getElementById("ten");
+            if(tenDangNhap.value.lenght == 0){
+                document.getElementById("loi").innerHTML = "Chưa nhập tên đăng nhập !"
+            }
+            
+        }
+    </script>
+</html>
