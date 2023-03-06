@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "629962616945",
+    "project_id": "appbooktickets",
+    "storage_bucket": "appbooktickets.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629962616945:android:114ce368d0393e4bb1abd0",
+        "android_client_info": {
+          "package_name": "fpoly.cp17302_3.appbooktickets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629962616945-dbekh52e7js73vpv84pokd78c7o3v4ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fpoly.cp17302_3.appbooktickets",
+            "certificate_hash": "f5e0dec42641bfdc5595747fc48fa54e1b2770f2"
+          }
+        },
+        {
+          "client_id": "629962616945-abdeml87k8cg6a9k8mskeeinv11m4drb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYiYD8B_fY_On9MuYOmdQdVzgx0aIhzC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629962616945-abdeml87k8cg6a9k8mskeeinv11m4drb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

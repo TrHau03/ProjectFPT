@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiKhoan.DangNhap_Activity">
+
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
+            <!--android:src="@mipmap/profile"-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        app:layout_constraintTop_toBottomOf="@+id/rlHeader"
+        android:layout_width="220dp"
+        android:layout_height="480dp"
+        tools:ignore="MissingConstraints" />
+        <!--android:background="@drawable/shape_left"-->
+
+    <LinearLayout
+        android:id="@+id/llLoginPanel"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintTop_toBottomOf="@id/rlHeader"
+        android:layout_marginTop="60dp"
+        android:paddingTop="70dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:orientation="vertical">
+        <!--android:background="@drawable/shape_login_panel"-->
+
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nhập user name"
+            android:text="1"/>
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nhập password"
+            android:inputType="textPassword"
+            android:text="1"/>
+    </LinearLayout>
+
+    <Button
+        android:textColorHint="@color/white"
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Đăng nhập"
+        app:layout_constraintBottom_toBottomOf="@id/llLoginPanel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@null" />
+        <!--android:background="@drawable/shape_login_button"-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

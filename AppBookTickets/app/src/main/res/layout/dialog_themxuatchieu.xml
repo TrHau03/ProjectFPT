@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:layout_gravity="center">
+    <!--android:background="@drawable/shape_background_dialog"-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM XUẤT CHIẾU"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="#50473A"
+        android:textStyle="bold"
+        />
+    <!--android:fontFamily="@font/kg_sollid"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/spnTenPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Vui Lòng Nhập Giờ"
+            android:id="@+id/edtGio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+
+        <EditText
+            android:hint="Vui Lòng Nhập Ngày"
+            android:id="@+id/edtNgay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+    </LinearLayout>
+
+</LinearLayout>

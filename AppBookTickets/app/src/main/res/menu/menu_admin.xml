@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mHome"
+        android:title="Trang Chủ"/>
+    <item
+        android:id="@+id/mDangChieu"
+        android:title="QL Phim"/>
+    <item
+        android:id="@+id/mQLTaiKhoan"
+        android:title="QL Tai Khoan"/>
+    <item
+        android:id="@+id/mTheLoai"
+        android:title="QL Thể Loại" />
+    <item
+        android:id="@+id/mDoiMK"
+        android:title="Đổi Mật Khẩu" />
+    <item
+        android:id="@+id/mQLXuatChieu"
+        android:title="QL Xuất Chiếu"/>
+    <item
+        android:id="@+id/mThoat"
+        android:title="Đăng xuất" />
+
+
+    <item
+        android:id="@+id/mKH_Phim"
+        android:title="Phim Khách Hàng"/>
+    <item
+        android:id="@+id/mKH_VeCuaToi"
+        android:title="Vé Của Tôi"/>
+
+</menu>
